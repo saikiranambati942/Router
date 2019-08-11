@@ -17,5 +17,5 @@ func main() {
 	//Default handler
 	http.HandleFunc("/", app.Foo)
 	//ListenAndServe starts an HTTP server with a given address and handler.The handler is usually nil, which means to use default handler HandleFunc
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe("0.0.0.0:8080", nil)
 }
