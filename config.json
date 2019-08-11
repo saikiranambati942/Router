@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "route": "*.*.*.*",
+      "server": "server5"
+    },
+    {
+      "route": "customer1.us.ca.*",
+      "server": "server1"
+    },
+    {
+      "route": "customer2.*.*.*",
+      "server": "server4"
+    },
+    {
+      "route": "customer2.us.*.*",
+      "server": "server3"
+    },
+    {
+      "route": "customer1.us.ca.sjc",
+      "server": "server2"
+    }
+  ]
+}
