@@ -22,3 +22,6 @@ Q) Want to see documentation of the router application?
 A) Run the command ` godoc -http=":6060"` in the terminal and make a request in the browser this way `localhost:6060`.
 
 `Note: Go documentation even contains all packages including standard libraries`
+
+
+--> DockerImage : `docker pull saikiran942/routerimage`
