@@ -14,6 +14,7 @@ Here ":8080" is the exposed port for the http server we used in the application 
 Sample o/p for the above request:
 
 `Input request is  : customer1.us.ca.sfo`
+
 `Routing to server : server1 `
 
 Q) Want to see documentation of the router application?
