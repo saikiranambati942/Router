@@ -1,4 +1,5 @@
 # Router
+
 This application loads the config file during initialization and finds the route to a appropriate server based on the config details loaded at the startup.
 
 Q) How to run the router application?
@@ -25,3 +26,14 @@ A) Run the command ` godoc -http=":6060"` in the terminal and make a request in 
 
 
 --> DockerImage : `docker pull saikiran942/routerimage`
+
+docker run -d $containername -p $host port:$application port
+
+example : docker run -p 8081:8080 -d $imagename
+
+
+
+
+ 
+ 
+ 
