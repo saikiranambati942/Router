@@ -21,6 +21,7 @@ func Start() error {
 	return err
 }
 
+//This function dynamically picks the new configuration changes for every ticker time period we set
 func configUpdate(rConfig *config.Routes) {
 	// we can set the ticker value as environment variable
 	ticker := time.NewTicker(20 * time.Second)
